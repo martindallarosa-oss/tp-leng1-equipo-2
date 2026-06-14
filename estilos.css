@@ -32,7 +32,6 @@ header {
 }
 header img{
     width: 50px;
-    
 }
 /*nav*/
 nav {
@@ -70,6 +69,10 @@ footer a{
 footer a:hover{
     color: var(--color-acento);
 }
+.multimedia {
+    margin: 16px;
+    padding: 16px;
+}
 /**/
 /*titulos*/
 h1 {
@@ -98,7 +101,6 @@ th, td {
     padding: 10px;
 }
 /**/
-
 /* mateo secciones de contenido  */
 section{
     margin: 32px 0;
