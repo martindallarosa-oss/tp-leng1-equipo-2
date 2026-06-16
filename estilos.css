@@ -200,3 +200,30 @@ p{
   font-size: 18px;
 }
 /*flexbox terminado */
+
+/* grilla - contactos - Pilar */
+
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+/* requisitos - grilla de medios de contacto */
+
+.requisitos {
+    background-color: var(--color-acento);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+/* requisitos - párrafos dentro de la grilla */
+
+.requisitos p{
+    background-color: var(--color-secundario);
+    padding: 16px;
+    border-radius: 8px;
+    color: var(--color-fondo);
+}
+
+/*grilla terminada*/
