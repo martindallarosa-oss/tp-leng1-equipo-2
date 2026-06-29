@@ -199,8 +199,8 @@ p{
 
 
 .nuestra-historia img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
@@ -219,6 +219,16 @@ p{
 
 .principal p {
   font-size: 18px;
+}
+
+.nuestra-historia div {
+  flex: 1;
+  text-align: left;
+}
+
+.nuestra-historia h2 {
+  text-align: center;
+  margin-bottom: 16px;
 }
 /*flexbox terminado */
 
