@@ -11,6 +11,7 @@
  --color-fondo: #fcffff;
  --color-texto: #1A1A1A;
  --color-separador: #d3d3d3;
+ --color-programas: #e2e9fc;
  font-family: 'Poppins', sans-serif;
 }
 
@@ -88,6 +89,9 @@ footer a:hover{
 .texto-item-programas {
     flex: 1 1 250px;
 }
+.texto-item-programas ul {
+    list-style-type: none;
+}
 .texto-item-programas h2{
     text-align: center;
 }
@@ -95,7 +99,7 @@ footer a:hover{
   width: 100%;          
     max-width: 400px;     
     height: auto;         
-    border-radius: 10%;   
+    border-radius: 15px;   
     object-fit: cover;   
 }
 .boton-contacto{
@@ -106,10 +110,16 @@ footer a:hover{
    text-decoration: none;
    color: var(--color-secundario);
 }
-.separador{
-    border-top: 0.3rem solid var(--color-acento);
-    margin: 2rem 0;
-    width: 100%;
+/* fondo grilla de programas*/ 
+.item-programas {
+    background-color: var(--color-programas);
+    padding: 20px;
+    border-radius: 15px;
+}
+.item-programas-video {
+    background-color: var(--color-programas);
+    padding: 20px;
+    border-radius: 15px;
 }
 /*fin victoria*/
 /*titulos*/
