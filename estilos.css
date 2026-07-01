@@ -248,3 +248,27 @@ p{
 }
 
 /*grilla terminada*/
+
+/*Personalización Bootstrap*/
+
+
+.navbar {
+    border-radius: 0 0 18px 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: var(--color-secundario);
+}
+
+.nav-link {
+    transition: .3s;
+    border-radius: 8px;
+    padding: 8px 14px;
+}
+
+.nav-link:hover {
+    background: var(--color-acento);
+    color: white;
+}
